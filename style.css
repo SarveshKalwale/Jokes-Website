@@ -12,22 +12,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
   position: absolute;
   width: 100%;
   height: 100%;
   font-family: "Josefin Sans", sans-serif;
 }
 
-.container h1{
-    margin-bottom: 50px;
-    font-size: 40px;
+.container h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
 }
 
 .box {
@@ -46,6 +42,6 @@
   font-size: 35px;
 }
 
-h3{
-    margin: 15px;
+h3 {
+  margin: 15px;
 }
