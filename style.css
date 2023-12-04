@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +8,8 @@
 
 .container {
   position: absolute;
-  height: 100%;
-  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #4158d0;
@@ -18,12 +19,33 @@
     #c850c0 46%,
     #ffcc70 100%
   );
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container h1{
+    margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .box {
-    height: 500px;
-    width: 60%;
-    background-color: #fff;
-    border: 5px solid aqua;
-    border-radius: 5px;
-  }
+  height: 500px;
+  width: 60%;
+  background-color: #fff;
+  border: 5px solid aqua;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box h3 {
+  font-size: 35px;
+}
+
+h3{
+    margin: 15px;
+}
